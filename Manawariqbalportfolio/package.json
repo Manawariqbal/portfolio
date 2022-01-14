@@ -12,7 +12,7 @@
     "serve:ssr": "node dist/personal-portfoli-angular/server/main.js",
     "build:ssr": "ng build --prod && ng run personal-portfoli-angular:server:production",
     "prerender": "ng run personal-portfoli-angular:prerender",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --configuration production"
   },
   "private": true,
   "dependencies": {
